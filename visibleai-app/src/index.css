@@ -1,16 +1,16 @@
 /* ---------- Variables ---------- */
 :root {
   --bg: #ffffff;
-  --bg-soft: #f7f6f2;
-  --bg-card: #f2f0eb;
-  --ink: #111110;
-  --ink-mid: #3d3d38;
-  --ink-muted: #888880;
-  --accent: #b8e800;
-  --accent-hover: #a2cf00;
-  --accent-deep: #556b00;
-  --border: #e2e0d8;
-  --border-strong: #c8c6bc;
+  --bg-soft: #f0f5ff;
+  --bg-card: #e8edf7;
+  --ink: #0d1f4e;
+  --ink-mid: #2d4080;
+  --ink-muted: #6677aa;
+  --accent: #0099cc;
+  --accent-hover: #0088bb;
+  --accent-deep: #0f2d6b;
+  --border: #dce8fa;
+  --border-strong: #b0c8f0;
   --red: #d23a3a;
   --amber: #e8a800;
   --font: 'Jost', sans-serif;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font); }
 .logo-dot {
   width: 8px; height: 8px; border-radius: 50%;
   background: var(--accent); display: inline-block;
-  box-shadow: 0 0 0 3px rgba(184,232,0,.2);
+  box-shadow: 0 0 0 3px rgba(0,153,204,.2);
   margin-left: 2px; flex-shrink: 0;
 }
 .login-logo { font-size: 36px; font-weight: 900; letter-spacing: -1px; display: inline-flex; align-items: center; gap: 1px; }
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font); }
 }
 .analysis-card:hover {
   border-color: var(--accent);
-  box-shadow: 0 2px 16px rgba(184,232,0,0.12);
+  box-shadow: 0 2px 16px rgba(0,153,204,0.12);
 }
 .card-top   { display: flex; align-items: center; gap: 12px; padding-bottom: 16px; }
 .card-left  { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
@@ -439,10 +439,10 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font); }
 .upgrade-cta strong  { color: var(--accent); }
 
 /* ---------- Visual polish (all sizes) ---------- */
-.analysis-card  { border-radius: 16px; box-shadow: 0 1px 4px rgba(17,17,16,.05); }
-.analysis-card:hover { box-shadow: 0 4px 20px rgba(184,232,0,.14); }
-.scan-box       { box-shadow: 0 2px 12px rgba(17,17,16,.06); }
-.result-section { box-shadow: 0 1px 4px rgba(17,17,16,.05); }
+.analysis-card  { border-radius: 16px; box-shadow: 0 1px 4px rgba(15,45,107,.05); }
+.analysis-card:hover { box-shadow: 0 4px 20px rgba(0,153,204,.12); }
+.scan-box       { box-shadow: 0 2px 12px rgba(15,45,107,.06); }
+.result-section { box-shadow: 0 1px 4px rgba(15,45,107,.05); }
 .global-score-box { border-radius: 14px; }
 
 /* ---------- Responsive ---------- */
