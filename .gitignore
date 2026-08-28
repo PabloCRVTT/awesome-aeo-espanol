@@ -1,0 +1,7 @@
+# This repo is only for the awesome-aeo-espanol resource list.
+# Ignore everything by default so project files elsewhere in $HOME never get tracked here again.
+*
+!.gitignore
+!README.md
+!LICENSE
+
