@@ -84,6 +84,7 @@ Señales que indican a los LLMs que tu sitio es una fuente confiable.
 - [VisibleAI](https://visible-ai.cl) — Diagnóstico AEO gratuito para sitios web. Score en 4 dimensiones con plan de acción priorizado. Especializado en mercado hispanohablante.
 - [Profound](https://www.profound.co) — Plataforma enterprise para monitoreo de menciones en IA (inglés)
 - [Otterly.ai](https://otterly.ai) — Tracking de visibilidad en respuestas de IA (inglés)
+- [LLM Pulse](https://llmpulse.ai) — Plataforma de AI search que rastrea visibilidad de marca, menciones, citaciones y share of voice en ChatGPT, Perplexity, Gemini y Google AI Overviews (inglés)
 
 ### Lectura técnica
 - [How LLMs decide what to cite](https://arxiv.org/abs/2307.11019) — Investigación sobre comportamiento de citación en LLMs
